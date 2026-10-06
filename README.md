@@ -18,7 +18,7 @@ total = subtotal_ingressos + subtotal_refrigerantes + subtotal_pipocas
 meias_entradas = int(input("Quantos ingressos são meia-entrada?"))
 desconto_meia = meias_entradas * (preco_ingresso / 2)
 total = total - desconto_meia
-# PROMOÇÃO COMBO
+#PROMOÇÃO COMBO
 combo = quantidade_pipocas >= 1 and quantidade_refrigerantes >= 1
 if combo:
     total = total - 5.00
